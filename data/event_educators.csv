@@ -33,7 +33,6 @@ EVT010,EDU002,Ambassador,7,true
 EVT010,EDU004,Ambassador,7,true
 EVT010,EDU005,Ambassador,7,true
 EVT011,EDU001,Lead Educator,0.5,true
-EVT011,EDU003,Ambassador,0.5,true
 EVT012,EDU002,Lead Educator,4,true
 EVT012,EDU004,Ambassador,4,true
 EVT013,EDU005,Lead Educator,4,true
@@ -44,7 +43,6 @@ EVT014,EDU007,Ambassador,5,true
 EVT015,EDU002,Lead Educator,4,true
 EVT015,EDU007,Ambassador,4,true
 EVT016,EDU001,Lead Educator,0.4,true
-EVT016,EDU008,Ambassador,0.4,true
 EVT017,EDU002,Lead Educator,4,true
 EVT017,EDU001,Ambassador,4,true
 EVT018,EDU002,Lead Educator,4.5,true
@@ -52,9 +50,7 @@ EVT018,EDU003,Ambassador,4.5,true
 EVT019,EDU002,Lead Educator,0.6,true
 EVT019,EDU003,Ambassador,0.6,true
 EVT020,EDU001,Lead Educator,0.4,true
-EVT020,EDU004,Ambassador,0.4,true
 EVT021,EDU001,Lead Educator,0.5,true
-EVT021,EDU005,Ambassador,0.5,true
 EVT022,EDU005,Lead Educator,8,true
 EVT022,EDU006,Ambassador,8,true
 EVT022,EDU007,Ambassador,8,true
@@ -121,7 +117,6 @@ EVT041,EDU002,Ambassador,6,true
 EVT041,EDU003,Ambassador,6,true
 EVT041,EDU004,Ambassador,6,true
 EVT042,EDU001,Lead Educator,0.5,true
-EVT042,EDU002,Ambassador,0.5,true
 EVT043,EDU001,Lead Educator,6,true
 EVT043,EDU003,Ambassador,6,true
 EVT043,EDU004,Ambassador,6,true
