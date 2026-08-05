@@ -1,6 +1,9 @@
 educator_id,educator_name,primary_language,secondary_language,experience_level,active_status
-EDU001,Ambassador A,English,Chinese,Intermediate,true
-EDU002,Ambassador B,English,Samoan,Senior,true
-EDU003,Ambassador C,English,Hindi,Intermediate,true
-EDU004,Ambassador D,English,Japanese,Intermediate,true
-EDU005,Ambassador E,English,Te Reo Maori,Senior,true
+EDU001,Ambassador A,English,Chinese,Intermediate,TRUE
+EDU002,Ambassador B,English,Samoan,Senior,TRUE
+EDU003,Ambassador C,English,Hindi,Intermediate,TRUE
+EDU004,Ambassador D,English,Japanese,Intermediate,TRUE
+EDU005,Ambassador E,English,Te Reo Maori,Senior,TRUE
+EDU006,Ambassador F,English,Korean,Junior,TRUE
+EDU007,Ambassador G,English,Tongan,Intermediate,TRUE
+EDU008,Ambassador H,English,Arabic,Intermediate,TRUE
