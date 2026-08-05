@@ -1,0 +1,138 @@
+event_id,educator_id,educator_role,hours_worked,is_estimated
+EVT001,EDU001,Lead Educator,4,true
+EVT001,EDU002,Educator,4,true
+EVT001,EDU003,Educator,4,true
+EVT002,EDU005,Lead Educator,4,true
+EVT002,EDU002,Educator,4,true
+EVT002,EDU003,Educator,4,true
+EVT003,EDU001,Lead Educator,7,true
+EVT003,EDU003,Ambassador,7,true
+EVT003,EDU004,Ambassador,7,true
+EVT003,EDU005,Ambassador,7,true
+EVT004,EDU003,Lead Educator,5,true
+EVT004,EDU004,Ambassador,5,true
+EVT004,EDU005,Ambassador,5,true
+EVT005,EDU001,Lead Educator,5,true
+EVT005,EDU005,Ambassador,5,true
+EVT005,EDU006,Ambassador,5,true
+EVT006,EDU004,Lead Educator,4,true
+EVT006,EDU006,Ambassador,4,true
+EVT006,EDU007,Ambassador,4,true
+EVT007,EDU005,Lead Educator,5,true
+EVT007,EDU007,Educator,5,true
+EVT007,EDU008,Educator,5,true
+EVT008,EDU005,Lead Educator,6,true
+EVT008,EDU008,Ambassador,6,true
+EVT008,EDU001,Ambassador,6,true
+EVT008,EDU002,Ambassador,6,true
+EVT009,EDU003,Lead Educator,5,true
+EVT009,EDU001,Ambassador,5,true
+EVT009,EDU002,Ambassador,5,true
+EVT010,EDU003,Lead Educator,7,true
+EVT010,EDU002,Ambassador,7,true
+EVT010,EDU004,Ambassador,7,true
+EVT010,EDU005,Ambassador,7,true
+EVT011,EDU001,Lead Educator,0.5,true
+EVT011,EDU003,Ambassador,0.5,true
+EVT012,EDU002,Lead Educator,4,true
+EVT012,EDU004,Ambassador,4,true
+EVT013,EDU005,Lead Educator,4,true
+EVT013,EDU006,Ambassador,4,true
+EVT014,EDU002,Lead Educator,5,true
+EVT014,EDU006,Ambassador,5,true
+EVT014,EDU007,Ambassador,5,true
+EVT015,EDU002,Lead Educator,4,true
+EVT015,EDU007,Ambassador,4,true
+EVT016,EDU001,Lead Educator,0.4,true
+EVT016,EDU008,Ambassador,0.4,true
+EVT017,EDU002,Lead Educator,4,true
+EVT017,EDU001,Ambassador,4,true
+EVT018,EDU002,Lead Educator,4.5,true
+EVT018,EDU003,Ambassador,4.5,true
+EVT019,EDU002,Lead Educator,0.6,true
+EVT019,EDU003,Ambassador,0.6,true
+EVT020,EDU001,Lead Educator,0.4,true
+EVT020,EDU004,Ambassador,0.4,true
+EVT021,EDU001,Lead Educator,0.5,true
+EVT021,EDU005,Ambassador,0.5,true
+EVT022,EDU005,Lead Educator,8,true
+EVT022,EDU006,Ambassador,8,true
+EVT022,EDU007,Ambassador,8,true
+EVT022,EDU008,Ambassador,8,true
+EVT022,EDU001,Ambassador,8,true
+EVT022,EDU002,Ambassador,8,true
+EVT023,EDU004,Lead Educator,8,true
+EVT023,EDU007,Ambassador,8,true
+EVT023,EDU008,Ambassador,8,true
+EVT023,EDU001,Ambassador,8,true
+EVT023,EDU002,Ambassador,8,true
+EVT023,EDU003,Ambassador,8,true
+EVT024,EDU003,Lead Educator,8,true
+EVT024,EDU008,Ambassador,8,true
+EVT024,EDU001,Ambassador,8,true
+EVT024,EDU002,Ambassador,8,true
+EVT024,EDU004,Ambassador,8,true
+EVT025,EDU001,Lead Educator,8,true
+EVT025,EDU002,Ambassador,8,true
+EVT025,EDU003,Ambassador,8,true
+EVT025,EDU004,Ambassador,8,true
+EVT025,EDU005,Ambassador,8,true
+EVT025,EDU006,Ambassador,8,true
+EVT026,EDU005,Lead Educator,6,true
+EVT026,EDU002,Ambassador,6,true
+EVT026,EDU003,Ambassador,6,true
+EVT027,EDU004,Lead Educator,8,true
+EVT027,EDU003,Ambassador,8,true
+EVT027,EDU005,Ambassador,8,true
+EVT028,EDU002,Lead Educator,8,true
+EVT028,EDU004,Ambassador,8,true
+EVT028,EDU005,Ambassador,8,true
+EVT029,EDU003,Lead Educator,8,true
+EVT029,EDU005,Ambassador,8,true
+EVT029,EDU006,Ambassador,8,true
+EVT029,EDU007,Ambassador,8,true
+EVT030,EDU001,Lead Educator,7,true
+EVT030,EDU006,Ambassador,7,true
+EVT030,EDU007,Ambassador,7,true
+EVT031,EDU002,Lead Educator,5,true
+EVT031,EDU007,Ambassador,5,true
+EVT032,EDU003,Lead Educator,6,true
+EVT032,EDU008,Ambassador,6,true
+EVT032,EDU001,Ambassador,6,true
+EVT032,EDU002,Ambassador,6,true
+EVT033,EDU005,Lead Educator,1.5,true
+EVT033,EDU001,Ambassador,1.5,true
+EVT034,EDU005,Lead Educator,1.5,true
+EVT034,EDU002,Ambassador,1.5,true
+EVT035,EDU001,Lead Educator,2,true
+EVT035,EDU003,Ambassador,2,true
+EVT036,EDU001,Lead Educator,1.3,true
+EVT036,EDU004,Ambassador,1.3,true
+EVT037,EDU001,Lead Educator,1.3,true
+EVT037,EDU005,Ambassador,1.3,true
+EVT038,EDU005,Lead Educator,1.3,true
+EVT038,EDU006,Ambassador,1.3,true
+EVT039,EDU005,Lead Educator,1.3,true
+EVT039,EDU007,Ambassador,1.3,true
+EVT040,EDU002,Lead Educator,5,true
+EVT040,EDU008,Ambassador,5,true
+EVT041,EDU001,Lead Educator,6,true
+EVT041,EDU002,Ambassador,6,true
+EVT041,EDU003,Ambassador,6,true
+EVT041,EDU004,Ambassador,6,true
+EVT042,EDU001,Lead Educator,0.5,true
+EVT042,EDU002,Ambassador,0.5,true
+EVT043,EDU001,Lead Educator,6,true
+EVT043,EDU003,Ambassador,6,true
+EVT043,EDU004,Ambassador,6,true
+EVT044,EDU002,Lead Educator,5,true
+EVT044,EDU004,Ambassador,5,true
+EVT045,EDU001,Lead Educator,4.5,true
+EVT045,EDU005,Ambassador,4.5,true
+EVT045,EDU006,Ambassador,4.5,true
+EVT046,EDU002,Lead Educator,5,true
+EVT046,EDU006,Ambassador,5,true
+EVT046,EDU007,Ambassador,5,true
+EVT047,EDU005,Lead Educator,6,true
+EVT047,EDU007,Ambassador,6,true
+EVT047,EDU008,Ambassador,6,true

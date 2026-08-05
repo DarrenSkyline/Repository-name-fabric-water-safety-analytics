@@ -1,0 +1,28 @@
+location_id,venue_name,suburb,region,venue_type,indoor_outdoor,water_access
+LOC001,Water Safety Training Centre,Auckland Central,Central Auckland,Training Facility,Indoor,None
+LOC002,South Auckland Cultural Event Centre,Manukau,South Auckland,Event Centre,Mixed,None
+LOC003,Henderson Community Hub,Henderson,West Auckland,Community Centre,Mixed,None
+LOC004,University City Campus,Auckland Central,Central Auckland,University,Indoor,None
+LOC005,University Service Expo Venue,Auckland Central,Central Auckland,University,Indoor,None
+LOC006,Tainui Community Festival Site,Mangere,South Auckland,Festival Ground,Outdoor,None
+LOC007,Community Night Market,Mt Roskill,Central Auckland,Market,Outdoor,None
+LOC008,Waitakere Festival Grounds,Henderson,West Auckland,Festival Ground,Outdoor,None
+LOC009,Community Church Learning Centre,Epsom,Central Auckland,Church,Indoor,None
+LOC010,West Auckland Coastal Site,Te Atatu,West Auckland,Boat Ramp,Outdoor,Harbour
+LOC011,East Auckland Coastal Site,Half Moon Bay,East Auckland,Marina,Outdoor,Harbour
+LOC012,Pacific Community Welcome Centre,Otahuhu,South Auckland,Community Centre,Indoor,None
+LOC013,Pasifika Health Event Venue,Mt Roskill,Central Auckland,Church Hall,Indoor,None
+LOC014,St John Pasifika Community Centre,Mangere,South Auckland,Community Centre,Indoor,None
+LOC015,Samoan Methodist Community Church,Otara,South Auckland,Church,Indoor,None
+LOC016,Auckland Showgrounds,Greenlane,Central Auckland,Expo Centre,Indoor,None
+LOC017,Whau River Community Site,Avondale,West Auckland,Waterfront,Outdoor,River
+LOC018,New Lynn Community Festival Site,New Lynn,West Auckland,Community Centre,Mixed,None
+LOC019,Mangere Bridge Coastal Site,Mangere Bridge,South Auckland,Boat Ramp,Outdoor,Harbour
+LOC020,Okahu Bay Coastal Site,Okahu Bay,Central Auckland,Boat Ramp,Outdoor,Harbour
+LOC021,Takapuna Coastal Site,Takapuna,North Shore,Boat Ramp,Outdoor,Coastal
+LOC022,Omaha Coastal Site,Omaha,North Auckland,Boat Ramp,Outdoor,Coastal
+LOC023,North Shore Community Sports Park,Northcote,North Shore,Sports Park,Outdoor,None
+LOC024,Community Education Centre,Mt Albert,Central Auckland,Community Centre,Indoor,None
+LOC025,Rural Community Event Centre,Pukekohe,South Auckland,Event Centre,Indoor,None
+LOC026,MBST Community Connect Venue,Mangere,South Auckland,Community Centre,Indoor,None
+LOC027,Matariki Community Festival Venue,Mt Roskill,Central Auckland,Community Centre,Mixed,None
