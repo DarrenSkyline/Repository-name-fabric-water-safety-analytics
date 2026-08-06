@@ -31,7 +31,7 @@ The planned solution includes:
 
 ## Solution Architecture
 
-``mermaid
+```mermaid
 flowchart LR
     A[CSV Source Data] --> B[OneLake Files / raw]
     B --> C[Bronze Delta Tables]
@@ -39,13 +39,13 @@ flowchart LR
     D --> E[Gold Analytical Tables]
     E --> F[Semantic Model]
     F --> G[Power BI Dashboard]
+```
 
-```markdown
 ## Fabric Notebooks
 
 ### 01 - Bronze Data Ingestion
 
-`01_load_bronze_data.ipynb`
+[`01_load_bronze_data.ipynb`](notebooks/01_load_bronze_data.ipynb)
 
 - Defines explicit PySpark schemas
 - Reads raw CSV files from OneLake
@@ -55,7 +55,7 @@ flowchart LR
 
 ### 02 - Silver Data Cleaning and Transformation
 
-`02_clean_silver_data.ipynb`
+[`02_clean_silver_data.ipynb`](notebooks/02_clean_silver_data.ipynb)
 
 - Cleans and standardises text fields
 - Converts strings into appropriate date, integer, double, and boolean types
