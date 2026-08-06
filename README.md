@@ -6,7 +6,11 @@ This portfolio project demonstrates the development of an end-to-end analytics s
 
 The project uses synthetic community water safety outreach data to analyse programme delivery, participant attendance, regional coverage, language accessibility, and participant satisfaction.
 
-The solution will use a Microsoft Fabric Lakehouse to store and manage data. Fabric notebooks with PySpark will be used to clean, transform, and aggregate the source data into analysis-ready Delta tables. These tables will support a semantic model and an interactive Power BI report.
+The solution uses a Microsoft Fabric Lakehouse to store and manage data. Fabric notebooks with PySpark are used to ingest, clean, standardise, and validate the source data using a Medallion Architecture approach.
+
+Raw CSV files are stored in OneLake and ingested into Bronze Delta tables. The Silver layer applies data type conversion, text standardisation, deduplication, and data quality validation to create analysis-ready datasets.
+
+The next stage of the project will create Gold analytical tables to support a Direct Lake semantic model and an interactive Power BI report.
 
 The planned solution includes:
 
@@ -25,6 +29,41 @@ The planned solution includes:
 
 > **Data disclaimer:** All data used in this project is synthetic and was created for learning and portfolio purposes. It does not contain confidential, personal, or organisational information.
 
+## Solution Architecture
+
+``mermaid
+flowchart LR
+    A[CSV Source Data] --> B[OneLake Files / raw]
+    B --> C[Bronze Delta Tables]
+    C --> D[Silver Delta Tables]
+    D --> E[Gold Analytical Tables]
+    E --> F[Semantic Model]
+    F --> G[Power BI Dashboard]
+
+```markdown
+## Fabric Notebooks
+
+### 01 - Bronze Data Ingestion
+
+`01_load_bronze_data.ipynb`
+
+- Defines explicit PySpark schemas
+- Reads raw CSV files from OneLake
+- Adds ingestion metadata
+- Performs structural and relationship validation
+- Writes Bronze Delta tables
+
+### 02 - Silver Data Cleaning and Transformation
+
+`02_clean_silver_data.ipynb`
+
+- Cleans and standardises text fields
+- Converts strings into appropriate date, integer, double, and boolean types
+- Standardises categorical values
+- Removes duplicate records
+- Performs data quality and referential integrity checks
+- Writes analysis-ready Silver Delta tables
+
 ## Business Questions
 
 This project aims to answer the following business questions:
@@ -33,7 +72,7 @@ This project aims to answer the following business questions:
 2. How many participants have been reached?
 3. How has event delivery and participation changed over time?
 4. Which regions and suburbs have the highest and lowest levels of participation?
-5. What is the attendance rate for each event type?
+5. How does actual attendance compare with registered attendance across different event types?
 6. Which programme types reach the greatest number of participants?
 7. Which languages are used to deliver the sessions?
 8. How does participation differ by language?
@@ -44,14 +83,25 @@ This project aims to answer the following business questions:
 
 ## Project Status
 
-🚧 **In Progress — Phase 1: Lakehouse Foundation**
+🚧 **In Progress — Phase 3: Gold Analytics Layer**
 
-The current phase focuses on:
+### Completed
 
-- Defining the business requirements
-- Preparing synthetic source data
-- Creating a Microsoft Fabric workspace
-- Creating a Lakehouse
-- Loading CSV files into OneLake
-- Creating Bronze Delta tables
-- Validating the source data with SQL
+- ✅ Defined business requirements and analytical questions
+- ✅ Created synthetic and anonymised source datasets
+- ✅ Created Microsoft Fabric workspace and Lakehouse
+- ✅ Loaded CSV source files into OneLake
+- ✅ Built Bronze Delta tables using PySpark
+- ✅ Implemented Bronze data validation
+- ✅ Built Silver Delta tables using PySpark
+- ✅ Implemented data type conversion and standardisation
+- ✅ Implemented Silver data quality and referential integrity checks
+
+### Next Steps
+
+- ⏳ Design Gold analytical tables
+- ⏳ Build Gold layer using PySpark and SQL
+- ⏳ Create Direct Lake semantic model
+- ⏳ Create DAX measures
+- ⏳ Build Power BI dashboard
+- ⏳ Implement row-level security
