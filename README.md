@@ -64,6 +64,17 @@ flowchart LR
 - Performs data quality and referential integrity checks
 - Writes analysis-ready Silver Delta tables
 
+### 03 - Gold Analytical Data Model
+
+[`03_build_gold_tables.ipynb`](notebooks/03_build_gold_tables.ipynb)
+
+- Reads analysis-ready Silver Delta tables
+- Builds business-focused Gold tables based on the 12 business questions
+- Joins event, location, and educator data into analytical datasets
+- Creates pre-aggregated metrics for event performance, programme analysis, location analysis, educator activity, and monthly trends
+- Performs Gold-layer validation and data quality checks
+- Writes five analytics-ready Gold Delta tables for SQL analysis and Power BI
+
 ## Business Questions
 
 This project aims to answer the following business questions:
