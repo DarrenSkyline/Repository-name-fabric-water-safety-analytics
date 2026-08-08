@@ -83,7 +83,7 @@ This project aims to answer the following business questions:
 
 ## Project Status
 
-🚧 **In Progress — Phase 3: Gold Analytics Layer**
+🚧 **In Progress — Phase 4: Semantic Model**
 
 ### Completed
 
@@ -96,12 +96,18 @@ This project aims to answer the following business questions:
 - ✅ Built Silver Delta tables using PySpark
 - ✅ Implemented data type conversion and standardisation
 - ✅ Implemented Silver data quality and referential integrity checks
+- ✅ Built Gold dimensional model
+- ✅ Created event delivery fact table
+- ✅ Created date, location, and educator dimensions
+- ✅ Modelled event-to-educator many-to-many relationships
+- ✅ Added business-ready analytical metrics
+- ✅ Validated Gold tables using T-SQL
+- ✅ Validated business questions through the SQL Analytics Endpoint
 
 ### Next Steps
 
-- ⏳ Design Gold analytical tables
-- ⏳ Build Gold layer using PySpark and SQL
 - ⏳ Create Direct Lake semantic model
-- ⏳ Create DAX measures
+- ⏳ Define table relationships
+- ⏳ Create DAX measures and measure metadata
 - ⏳ Build Power BI dashboard
 - ⏳ Implement row-level security
